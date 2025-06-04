@@ -16,7 +16,7 @@
 
 .popup-content {
   box-sizing: border-box;
-  background-image: url('./group.png');
+  background-image: url('../assets/block.png');
   padding: 10px;
   border-radius: 20px;
   text-align: center;

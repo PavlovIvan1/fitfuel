@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Benzin-Bold';
+  src: url('./assets/fonts/benzin-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display';
+  src: url('./assets/fonts/SF-Pro-Display-Regular.otf')
+}
+
+
+:root {
+  --primary-color: #33AB7D;
+  --secondary-color: #2C2A29;
+  --tertiary-color: #DDDDDD;
+  --gray-color: #2C2A29;
+  --light-gray-color: #DDDDDD;
+  --white-color: #FFFFFF;
+  --font-family: 'Benzin-Bold', sans-serif;
+  --font-family-sf-pro-display: 'Inter', sans-serif;
+  --font-family-sf-pro-display: 'SF-Pro-Display', sans-serif;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: var(--font-family);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+.sub-title {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--gray-color);
+}
+
+.energy-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-name {
+  font-family: var(--font-family-sf-pro-display);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-color);
+  text-align: center;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 29px;
+  border-radius: 128px;
+  cursor: pointer;
+}
+
+.price {
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.promo {
+  background-image: url('./Block.png');
+  width: 100%;
+  height: 161px;
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.promo-title {
+  font-family: var(--font-family);
+  font-size: 17px;
+  color: var(--gray-color);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.button-div {
+  font-family: var(--font-family-sf-pro-display);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  width: 100%;
+  height: 56px;
+  border-radius: 128px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px !important;
+}
+
+.empty {
+  color: var(--light-gray-color);
+}
+

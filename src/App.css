@@ -22,3 +22,8 @@
   text-align: center;
   font-family: var(--font-family-inter);
 }
+
+/* Добавляем контейнер для основного контента */
+main {
+  padding-bottom: 116px; /* 56px (высота кнопки) + 30px (отступ снизу) + 30px (дополнительный отступ) */
+}

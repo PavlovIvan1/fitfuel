@@ -11,7 +11,11 @@ export function App() {
       <Promo />
       <Energy />
       <Immunity />
-      <button className='button'>Оформить заказ(0)</button>
+      <button className='button' style={
+        {
+          marginTop: '60px'
+        }
+      }>Оформить заказ(0)</button>
     </>
   )
 }

@@ -4,13 +4,13 @@ export const products = {
       id: 1,
       name: 'Л-Теанин',
       price: 699,
-      image: './image.png'
+      image: './image1.jpg'
     },
     {
       id: 2,
       name: 'Кофеин',
       price: 699,
-      image: './image1.png'
+      image: './image.jpg'
     },
     {
       id: 3,

@@ -17,6 +17,8 @@
   flex: 0 0 auto;
   width: 200px;
   text-align: center;
+  border-radius: 10px;
+  border: black solid 1px;
 }
 
 .product-item img {

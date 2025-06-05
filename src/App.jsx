@@ -10,7 +10,7 @@ export function App() {
   useEffect(() => {
     window.Telegram.WebApp.expand()
     window.Telegram.WebApp.setHeaderColor("#33AB7D")
-    // .window.Telegram.WebApp.disableVerticalSwipes()	
+    window.Telegram.WebApp.disableVerticalSwipes()	
   }, [])
 
   return (

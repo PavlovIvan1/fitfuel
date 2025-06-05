@@ -17,19 +17,16 @@
   flex: 0 0 auto;
   width: 200px;
   text-align: center;
-
-  img {
-    border-radius: 20px;
-    border: rgb(29, 29, 29) solid 1px;
-  }
 }
 
 .product-item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
   margin-bottom: 10px;
+
+  border-radius: 28px;
+  border: #e4e4e4 solid 1px;
 }
 
 .product-name {

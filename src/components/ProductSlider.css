@@ -17,8 +17,11 @@
   flex: 0 0 auto;
   width: 200px;
   text-align: center;
-  border-radius: 10px;
-  border: black solid 1px;
+
+  img {
+    border-radius: 20px;
+    border: rgb(29, 29, 29) solid 1px;
+  }
 }
 
 .product-item img {
